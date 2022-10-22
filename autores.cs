@@ -16,6 +16,7 @@ namespace Practica_semana_10
     public partial class autores : Form
     {
         //Variables globales
+        //cadena de conexion
         public string cadena_conexion = " server=localhost;user id=biblioteca;password=trejo1090;database=biblioteca;persistsecurityinfo=True";
         public autores()
         {
