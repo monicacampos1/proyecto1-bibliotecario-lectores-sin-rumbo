@@ -229,6 +229,7 @@ namespace Practica_semana_10
             {
                 try
                 {
+                    // código para ejecutar el botón de ayuda
                     MySqlConnection myConnection = new MySqlConnection(cadena_conexion);
                     string myInsertQuery = ("select * from teditoriales Where ideditorial = '" + txtbuscar.Text + "'");
                     MySqlCommand myCommand = new MySqlCommand(myInsertQuery, myConnection);
