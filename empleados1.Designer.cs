@@ -46,12 +46,10 @@ namespace Practica_semana_10
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bibliotecaDataSet1 = new Practica_semana_10.bibliotecaDataSet();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -244,11 +242,6 @@ namespace Practica_semana_10
             this.pictureBox1.TabIndex = 127;
             this.pictureBox1.TabStop = false;
             // 
-            // bibliotecaDataSet1
-            // 
-            this.bibliotecaDataSet1.DataSetName = "bibliotecaDataSet";
-            this.bibliotecaDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // empleados1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,7 +259,6 @@ namespace Practica_semana_10
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
