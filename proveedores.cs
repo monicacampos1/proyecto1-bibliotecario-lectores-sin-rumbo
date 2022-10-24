@@ -17,6 +17,7 @@ namespace Practica_semana_10
     {
 
         //Variables globales
+        //Conexion  de la base de datos
         public string cadena_conexion = " server=localhost;user id=biblioteca;password=trejo1090;database=biblioteca;persistsecurityinfo=True";
         public proveedores()
         {
@@ -145,6 +146,7 @@ namespace Practica_semana_10
 
         }
 
+        //Funciones de los botones y otros elementos
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
@@ -158,6 +160,11 @@ namespace Practica_semana_10
         private void rnombre_CheckedChanged(object sender, EventArgs e)
         {
             bbuscar.Enabled = true;
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
